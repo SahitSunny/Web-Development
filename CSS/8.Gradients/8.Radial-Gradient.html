@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a
+        {
+            border:1px solid black;
+            height:150px;
+            width:150px;
+            margin:10px;
+            /* radial gradient */
+            background-image: radial-gradient(red,blue);
+        }
+        #b
+        {
+            border:1px solid black;
+            height:150px;
+            width: 100px;
+            margin:10px;
+            /* elliptical gradient */
+            background-image: radial-gradient(green,white,red);
+        }
+        #c
+        {
+            border:1px solid black;
+            height:150px;
+            width: 100px;
+            margin:10px;
+            /* converting elliptical gradient to circle */
+            background-image: radial-gradient(circle,green,white,red);
+            
+        }
+    </style>
+</head>
+<body>
+    <div id ="a">A</div>
+    <div id="b">B</div>
+    <div id="c">C</div>
+</body>
+</html>

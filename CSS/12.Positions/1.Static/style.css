@@ -1,0 +1,6 @@
+/* static positioning == default*/
+p
+{
+    position: static;
+}
+

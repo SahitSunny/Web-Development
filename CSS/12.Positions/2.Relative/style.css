@@ -1,0 +1,14 @@
+/* relative positioning */
+div{
+    display: inline-block;
+    width: 150px;
+    height:150px;
+    background-color: aqua;
+    border:1px solid black;
+}
+#box3
+{
+    position: relative;
+    top: 170px;
+    left:50px;
+}

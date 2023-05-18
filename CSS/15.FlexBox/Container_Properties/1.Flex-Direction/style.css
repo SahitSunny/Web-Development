@@ -1,0 +1,55 @@
+.container1
+{
+    height:200px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: row;    /* Default */
+    margin-bottom: 50px;
+}
+.box1
+{
+    border:1px solid red;
+    background-color: aqua;
+}
+
+.container2
+{
+    height:200px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;    
+    margin-bottom: 50px;
+}
+.box2
+{
+    border:1px solid red;
+    background-color: aqua;
+}
+
+.container3
+{
+    height:200px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: row-reverse;    
+    margin-bottom: 50px;
+}
+.box3
+{
+    border:1px solid red;
+    background-color: aqua;
+}
+
+.container4
+{
+    height:200px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column-reverse;    
+    margin-bottom: 50px;
+}
+.box4
+{
+    border:1px solid red;
+    background-color: aqua;
+}

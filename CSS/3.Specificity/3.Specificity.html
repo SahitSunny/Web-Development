@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: black;    
+            color:blue; /*No clashing hence selected as it is*/
+        }
+        .para-c
+        {
+            background-color: black;
+            font-family:'Times New Roman', Times, serif;    /*No clashing hence selected as it is*/
+        }
+        #para-i
+        {
+            background-color: brown;    /*clashed in other type of selection but due to specificity this property is selected */
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <p class = "para-c" id = "para-i">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia hic eum sed alias.
+         Soluta, assumenda debitis. Cum voluptas eum quibusdam nisi, accusamus, 
+         quae corporis asperiores accusantium nostrum, quaerat minus.</p>
+</body>
+</html>

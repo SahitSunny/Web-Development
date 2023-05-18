@@ -1,0 +1,17 @@
+.box1
+{
+    margin-bottom: 10px;
+    border: 1px solid black;
+    min-height: 30px;   /* Agar content minimum height ke andar ajust ho raha hai toh fine not then box size increses automatically */
+}
+.box2
+{
+    border:1px solid black;
+    max-height: 100px;  /*Max height ke andar content aa raha hai toh fine otherwise content gets overflowed out of box */
+}
+
+/*
+    other Diamensions
+    min-width
+    max-height
+*/

@@ -1,0 +1,42 @@
+.container1
+{
+    height:200px;
+    border:2px solid green;
+    display: flex;
+    flex-wrap:nowrap;   /* width changes */
+    margin-bottom: 50px;
+}
+.box1
+{
+    border: 2px solid brown;
+    background-color: blueviolet;
+    width:100px;
+}
+.container2
+{
+    height:200px;
+    border:2px solid green;
+    display: flex;
+    flex-wrap:wrap;     /* width doesnt changes */
+    margin-bottom: 50px;
+}
+.box2
+{
+    border: 2px solid brown;
+    background-color: blueviolet;
+    width:100px;
+}
+.container3
+{
+    height:200px;
+    border:2px solid green;
+    display: flex;
+    flex-wrap:wrap-reverse;     /* width doesnt changes */
+    margin-bottom: 50px;
+}
+.box3
+{
+    border: 2px solid brown;
+    background-color: blueviolet;
+    width:100px;
+}

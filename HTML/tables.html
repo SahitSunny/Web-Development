@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td,th{
+            border:1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            caption-side: bottom;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- table1 -->
+    <table>
+        <thead>
+            <th>Subject</th>
+            <th>S1</th>
+            <th>S2</th>
+            <th>S3</th>
+        </thead>
+            
+        <tbody>
+            <tr>
+                <td>English</td>
+                <td>8</td>
+                <td>5</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>4</td>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Hindi</td>
+                <td>7</td>
+                <td>2</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>total</td>
+                <td>19</td>
+                <td>10</td>
+                <td>8</td>
+            </tr>
+        </tfoot>
+        
+    <caption>Marks</caption>
+    </table>
+
+    <br>
+
+    <!-- table2 -->
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Month</th>
+                <th>Amount</th>
+                <th>abc</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Jan</td>
+            <td colspan="2" rowspan="2">100</td>
+        </tr>
+
+        <tr>
+            <td rowspan = "3">Feb</td>
+            <td>200</td>
+        </tr>
+
+        <tr>
+            <td>March</td>
+            <td>300</td>
+        </tr>
+
+        <tr>
+            <td>total</td>
+            <td>600</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- table3 -->
+    <table>
+        <tr>
+            <td colspan = "2">abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table>
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+
+        <tr>
+            <td>abc</td>
+            <td rowspan="3">abc</td>
+            <td>abc</td>
+        </tr>
+
+        <tr>
+            <td>abc</td>
+            
+            <td>abc</td>
+        </tr>
+
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+
+    </table>
+    <br>
+
+    <!-- table4 -->
+    <table>
+        <caption>both row and col span</caption>
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+
+        <tr>
+            <td>abc</td>
+            <td colspan="2" rowspan="2">abc</td>
+            
+        </tr>
+
+        <tr>
+            <td>abc</td>
+            
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- tanle4 -->
+    <table>
+        <tr>
+            <td rowspan="2">state of health</td>
+            <td colspan="2">fasting value</td>
+            <td>after eating</td>
+        </tr>
+
+        <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hours after eating</td>
+        </tr>
+
+        <tr>
+            <td>healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+
+        <tr>
+            <td>Pre-Diabities</td>
+            <td>101</td>
+            <td>70</td>
+            <td>140 to 200</td>
+        </tr>
+
+        <tr>
+            <td>Diabities</td>
+            <td>More than 120</td>
+            <td>376</td>
+            <td>More than 200 </td>
+        </tr>
+
+    </table>
+    <br>
+
+    <!-- table5 -->
+    <table>
+        <thead>\
+            <tr>
+                <th colspan="6">Time Table</th>
+            </tr>
+        </thead>
+        
+
+        <tr>
+            <td rowspan="6"><b>Hours</b></td>
+            <td><b>Mon</b></td>
+            <td><b>Tue</b></td>
+            <td><b>Wen</b></td>
+            <td><b>Thur</b></td>
+            <td><b>Fri</b></td>
+        </tr>
+
+        <tr>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+
+        <tr>
+            <td>Social</td>
+            <td>History</td>
+            <td>Social</td>
+            <td>English</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            
+            <td colspan="5"><b>Lunch Break</b></td>
+            
+        </tr>
+
+        <tr>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td colspan="2" rowspan="2">Project</td>
+        </tr>
+
+        <tr>
+            <td>Social</td>
+            <td>History</td>
+            <td>Social</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- table6 -->
+    <table>
+        <colgroup>
+            <col span = "2" style="background-color: orangered;">
+            <col span="" style = "background-color: white;">
+            <col span = "2" style = "background-color: green;">
+        </colgroup>
+
+        
+
+        <tr>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+        </tr>
+
+        <tr>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+        </tr>
+
+        <tr>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td style="background-color: blue;">xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+        </tr>
+
+        <tr>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+        </tr>
+
+        <tr>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+        </tr>
+    </table>
+
+    <br>
+    <!-- table6 -->
+    <table>
+        <colgroup>
+            <col span = "">
+            <col span = "">  
+            <col span = "" style="visibility: collapse;">
+            <col span = "">
+        </colgroup>
+
+        <tr>
+            <td>col1</td>
+            <td>col2</td>
+            <td>col3</td>
+            <td>col4</td>
+        </tr>
+
+        <tr>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+        </tr>
+
+        <tr>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+        </tr>
+
+        <tr>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+        </tr>
+
+        <tr>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+            <td>xyz</td>
+        </tr>
+    </table>
+</body>
+</html>

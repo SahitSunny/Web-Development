@@ -1,0 +1,73 @@
+.container1
+{
+    border:1px solid black;
+    height:200px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+}
+.box1
+{
+    border:1px solid green;
+    background-color: darkgoldenrod;
+}
+
+.container2
+{
+    border:1px solid black;
+    height:200px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+}
+.box2
+{
+    border:1px solid green;
+    background-color: darkgoldenrod;
+    
+}
+
+.container3
+{
+    border:1px solid black;
+    height:200px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+.box3
+{
+    border:1px solid green;
+    background-color: darkgoldenrod;
+    
+}
+
+.container4
+{
+    border:1px solid black;
+    height:200px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+.box4
+{
+    border:1px solid green;
+    background-color: darkgoldenrod;
+    
+}
+
+.container5
+{
+    border:1px solid black;
+    height:200px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.box5
+{
+    border:1px solid green;
+    background-color: darkgoldenrod;
+    
+}

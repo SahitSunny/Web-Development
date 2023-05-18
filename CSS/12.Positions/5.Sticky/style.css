@@ -1,0 +1,18 @@
+div{
+    width: 150px;
+    height:150px;
+    background-color: aqua;
+    border:1px solid black;
+    display: inline-block;
+}
+.wrapper
+{
+    background-color: yellow;
+    width:100vw;
+    height:2000px;
+}
+#box4
+{
+    position: sticky;
+    top: 0px;
+}

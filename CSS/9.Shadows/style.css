@@ -1,0 +1,31 @@
+h1{
+    text-shadow: 3px 3px 3px red ;
+}
+h2{
+    /* multiple shadow */
+    text-shadow: 3px 3px 3px red , 50px 10px 5px green;
+}
+#box1
+{
+    background-color: blue;
+    width: 100px;
+    height:100px;
+    box-shadow: 10px 10px 5px;  /* the deafault color of box shadow is same as the color of text inside it*/
+    margin-bottom: 10px;
+}
+#box2
+{
+    background-color: black;
+    width: 100px;
+    height:100px;
+    box-shadow: 10px 10px 5px red;  /* the deafault color of box shadow is same as the color of text inside it*/
+    margin-bottom: 50px;
+}
+#box3
+{
+    background-color: yellowgreen;
+    width: 100px;
+    height:100px;
+    box-shadow: -10px -10px 5px red;  /* the deafault color of box shadow is same as the color of text inside it*/
+    margin-bottom: 10px;
+}

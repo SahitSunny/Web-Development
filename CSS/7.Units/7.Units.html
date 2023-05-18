@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* percentage unit */
+         #div1
+         {
+            border: 1px solid black;
+            width: 500px;
+            height: 500px;
+         }
+         #div2
+         {
+            background-color: black;
+            border: 1px solid black;
+            width: 10%; /* it will set its width by considering 10% of its parent element i.e. DIV1*/
+            height: 10%;
+         }
+
+         /* realtive to veiwport */
+         #para
+         {
+            background-color: red;
+            width: 50vw;
+            height: 50vh;
+         }
+    </style>
+</head>
+<body>
+    <!-- percentage unit -->
+    <div id = "div1">
+        <div id = "div2"></div>
+    </div>
+
+    <!-- relative to viewport -->
+    <p id ="para">Lorem ipsum dolor sit amet.</p>
+    
+</body>
+</html>

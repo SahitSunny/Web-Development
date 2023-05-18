@@ -1,0 +1,36 @@
+.box
+{
+    width: 100px;
+    height:100px;
+    display:inline-block;
+    background-color: aqua;
+}
+#box1
+{
+    transform: translate(100px,150px);
+}
+#box2
+{
+    transform: rotate(45deg);
+    margin-top:15px;
+    margin-right:20px;
+   
+}
+#box3
+{
+    transform: scale(2,2);
+    position: absolute;
+    top:350px;
+}
+#box4
+{
+    position: absolute;
+    top:550px;
+    transform: skew(45deg);
+}
+#box5
+{
+    position: absolute;
+    top:700px;
+    transform: matrix(0,-5,0,0,0,0);
+}
